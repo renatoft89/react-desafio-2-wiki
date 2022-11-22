@@ -1,7 +1,9 @@
+import gitLogo from '../assets/github.png'
+
 function App() {
   return (
     <div className="App">
-      Wiki
+      <img src={gitLogo} alt='logo-git' width={72} height={72} />
     </div>
   );
 }
